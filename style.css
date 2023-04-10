@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background: rgb(29, 29, 29);
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+}
+.container{
+    padding: 20px;
+    width: 80%;
+    /* background: red; */
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50%;
+    font-size: 24px;
+    color:#fff;
+}
+nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color:#fff;
+}
+.banner{
+    width: 100%;
+    height: 800px;
+    background-image: url(pic.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 800px;
+    background-color: rgba(0,0,0,.4);
+}
+.banner-text{
+    width: 80%;
+    margin-left: 10%;
+    padding: 20px;
+    padding-top: 350px;
+    transition:.5s;
+}
+.banner-title{
+    font-size: 40px;
+    color:#F2F2F2;
+    font-weight: 100;
+}
+.banner-text > button{
+    margin-top: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.banner-text > button:hover{
+    border:1px solid #fff;
+    background: transparent;
+    color:#fff;
+}
+span{
+    color:orange
+}
+.features{
+    padding:50px 10%;
+}
+.features-title{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 200;
+}
+.features-space{
+    width: 100%;
+    /* height: 400px; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box{
+    width: 21%;
+    height: 400px;
+    background: green;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0 0 5px rgba(0,0,0.5);
+}
+.box:nth-child(1){
+    background-image: url(pic2.webp);
+    background-position: center;
+    background-size: cover;
+}
+.box:nth-child(2){
+    background-image: url(pic3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.box:nth-child(3){
+    background-image: url(pic1.webp);
+    background-position: center;
+    background-size: cover;
+}
+.box:nth-child(4){
+    background-image: url(pic4.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.box-text{
+    width: 50%;
+    background: rgba(0,0,0,.4);
+    height: 30px;
+    display: flex;justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    transition:.5s;
+    color:#fff;
+}
+.box-text:hover{
+    width: 100%;
+}
+.products{
+    padding:50px 10%;
+}
+.products-title{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 200; 
+}
+.card-container{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 50px;
+}
+.card{
+    width: 21%;
+    height: 400px;
+    background-color: green;
+}
+.card-image{
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+}
+.card-text{
+    width: 100%;
+    height: 100px;
+    background: #0D0D0D;
+}
+.card-image > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5px;
+    color:#F2F2F2;
+}
+.card-text > button{
+    padding:10px 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer{
+    height: 60px;
+    background-color: #0D0D0D;
+    text-align: center;
+    line-height: 60px;
+    color:#fff;
+}

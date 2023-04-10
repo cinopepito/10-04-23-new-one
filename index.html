@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="logo">MusicLine</div>
+        <nav>
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Services</a>
+          <a href="">Contacts</a>
+          <a href="">Gallery</a>
+        </nav>
+      </div>
+    </header>
+    <section class="banner">
+      <div class="overlay">
+        <div class="banner-text">
+          <h2 class="banner-title">
+            Music is the best <span> way</span> to express <br />
+            yourself in this world.
+          </h2>
+          <button>Click Here</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <h2 class="features-title">Features Category</h2>
+      <div class="features-space">
+        <div class="box">
+          <div class="box-text">Listen to music</div>
+        </div>
+        <div class="box">
+          <div class="box-text">Play guitar</div>
+        </div>
+        <div class="box">
+          <div class="box-text">Record track</div>
+        </div>
+        <div class="box">
+          <div class="box-text">Compose track</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products">
+      <h2 class="products-title">Products Category</h2>
+      <div class="card-container">
+        <div class="card">
+          <div class="card-image">
+            <img src="pic.jpeg" alt="" />
+          </div>
+          <div class="card-text">
+            <p>Record Track</p>
+            <button>Record Track</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="pic3.webp" alt="" />
+          </div>
+          <div class="card-text">
+            <p>Listen Track</p>
+            <button>Listen Track</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="pic5.jpeg" alt="" />
+          </div>
+          <div class="card-text">
+            <p>Mixing Track</p>
+            <button>Mix Music</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="pic8.webp" alt="" />
+          </div>
+          <div class="card-text">
+            <p>Using Console</p>
+            <button>Using Bx</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="pic9.jpg" alt="" />
+          </div>
+          <div class="card-text">
+            <p>Using Console</p>
+            <button>Using SSL</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>Messan Ayayi All rights reserved - 2023 -</footer>
+
+    <script>
+      window.onscroll = function () {
+        if (scrollY >= 200) {
+          document.getElementById("header").style.backgroundColor = "#BFBFBF";
+          document.getElementById("header").style.boxShadow =
+            "0 0 5px rgba(0,0,0.5)";
+        } else {
+          document.getElementById("header").style.backgroundColor =
+            "rgb(29, 29, 29)";
+        }
+      };
+    </script>
+  </body>
+</html>
